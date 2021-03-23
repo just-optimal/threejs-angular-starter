@@ -1,5 +1,5 @@
 # ThreeJS Angular Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+Starter project for using ThreeJS 3d engine library into an angular project
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
