@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InteractiveAppComponent } from './interactive-app.component';
+import { EngineComponent } from './engine.component';
 
 describe('InteractiveAppComponent', () => {
-  let component: InteractiveAppComponent;
-  let fixture: ComponentFixture<InteractiveAppComponent>;
+  let component: EngineComponent;
+  let fixture: ComponentFixture<EngineComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InteractiveAppComponent ]
+      declarations: [ EngineComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InteractiveAppComponent);
+    fixture = TestBed.createComponent(EngineComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
